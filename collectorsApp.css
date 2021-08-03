@@ -5,7 +5,7 @@
 }
 
 header {
-    color: #D8D3CD;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -17,18 +17,22 @@ body {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
     align-items: center;
 }
 
 h2 {
     font-size: 24px;
+    padding: 24px;
 }
 
 h3 {
-    padding: 10px;
+    margin-top: 30px;
 }
 
+.statDisplayCard {
+    background-color: red;
+}
 
 @media screen and (max-width: 800px) {
     .project-container {

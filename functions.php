@@ -7,8 +7,7 @@ function createTeamInfo(array $teamsData) :string {
             "<h3>" . "Team Name: " . $team['teamName'] . "</h3>" .
             "<p>" . "Poles: " . $team['poles'] . "</p>" .
             "<p>" . "Wins: " . $team['wins'] . "</p>" .
-            "<p>" . "Podiums: " . $team['podiums'] . "</p>" .
-            "<p>" . " " . "</p>";
+            "<p>" . "Podiums: " . $team['podiums'] . "</p>";
     }
     return $teamCard;
 }
