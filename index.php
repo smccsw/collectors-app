@@ -30,7 +30,12 @@ $teamsData = $query->fetchAll();
 
 <body>
 
-<?php echo createTeamInfo($teamsData); ?>
+<?php
+
+echo createTeamInfo($teamsData);
+
+?>
+
 
 </body>
 
