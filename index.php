@@ -22,17 +22,18 @@ $teamsData = $query->fetchAll();
 </head>
 
 
+
+
+
+<body>
 <header>
     <h1>CollectZone</h1>
     <h2>2020 F1 Teams</h2>
 </header>
 
-
-<body>
-
 <?php
 
-echo createTeamInfo($teamsData);
+echo createTeamsInfo($teamsData);
 
 ?>
 
